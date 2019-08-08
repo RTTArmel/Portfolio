@@ -70,6 +70,18 @@ body {
   background-color: #fff;
 }
 
+.fa-chevron-up{ 
+  color: #dc3545;
+  padding: 1%;
+  border: solid #dc3545 2px !important;
+  border-radius: 20px !important;  
+  margin-bottom: 2%;        
+}
+
+.fa-chevron-up:hover{
+  cursor: pointer !important;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
