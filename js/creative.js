@@ -33,6 +33,12 @@ $('#to-top').click(function() {
         }, 500);
     });
 
+    $('#to-portfolio').click(function() {
+      $('html, body').animate({
+          scrollTop: 1900
+      }, 500);
+  });
+    
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
